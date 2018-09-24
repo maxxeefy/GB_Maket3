@@ -157,6 +157,7 @@ video {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin-left: 230px;
 }
 
 .reviews {
@@ -200,6 +201,7 @@ video {
     line-height: 18px;
     padding-top: 15px;
     margin-bottom: 15px;
+    margin-left: 140px;
 }
 
 .comment p:last-of-type {
