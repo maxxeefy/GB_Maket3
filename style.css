@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 50px;
+    background-color: #445162;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.header-list {
+    width: 422px;
+    list-style-type: none;
+    list-style-image: url(img/check_icon.png);
+    margin-left: 30px;
+}
+
+.header-list li {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.header-img {
+    display: block;
+    background-color: #fff;
+}
+
+.about {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description h2 {
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.description p {
+    width: 649px;
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+video {
+    display: block;
+}
+
+.dignity {
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.dignity h2 {
+    text-align: center;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.ul_dignity {
+    display: flex;
+    justify-content: center;
+}
+
+.ul_dignity ul {
+    width: 580px;
+}
+
+.ul_dignity ul li {
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style: none;
+    background: url(img/ul_mark.png) no-repeat 0px 5px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.scrinshot {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.scrinshot h2 {
+    text-align: center;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.scrin {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.scrinshot_div {
+    width: 590px;
+    margin-bottom: 30px;
+}
+
+.scrinshot_img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.scrinshot_div h3 {
+    font-family: Arial;
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.scrinshot_div p {
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 230px;
+}
+
+.reviews {
+    background-color: #f5f5f5;
+    padding: 50px 50px 30px 50px;
+}
+
+.reviews h2 {
+    text-align: center;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.rev {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reviews_div {
+    width: 580px;
+    margin-bottom: 25px;
+}
+
+.reviews_img {
+    float: left;
+    margin-right: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.comment p:first-of-type {
+    font-family: Arial;
+    color: #333333;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 140px;
+}
+
+.comment p:last-of-type {
+    font-family: Arial;
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 140px;
+    padding-bottom: 10px;
+}
+
+.comment {
+    background: url(img/review.png) no-repeat 110px 0px;
+}
+
+.buy_it {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.buy_it h2 {
+    text-align: center;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.cost {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cost div {
+    width: 300px;
+    border: 1px solid #425062;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.cost div h3 {
+    text-align: center;
+    margin: 0;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+    background: #425062;
+    border: none;
+}
+
+.cost>div>div {
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    border: none;
+}
+
+.bottom_buy {
+    background: #425062;
+    border: none;
+}
+
+.bottom_buy>ol {
+    list-style-position: inside;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.bottom_buy a {
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 30px;
+    text-decoration: none;
+    background: #ffffff;
+    width: 260px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.bottom_buy a:hover {
+    background: rgb(250, 118, 118);
+}
+
+.bottom_buy a:active {
+    background: red;
+}
+
+.contacts {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background: #445162;
+}
+
+.contacts h2 {
+    text-align: center;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.contacts_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts_form {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 500px;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    border: 1px solid #445162;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+input[type="text"]:hover {
+    background: rgb(250, 118, 118);
+}
+
+input[type="text"]:first-of-type {
+    text-transform: capitalize;
+}
+
+textarea {
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 500px;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px solid #445162;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+textarea:hover {
+    background: rgb(250, 118, 118);
+}
+
+input[type="submit"] {
+    width: 140px;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    border: 1px solid #445162;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background: rgb(250, 118, 118);
+}
+
+input[type="submit"]:active {
+    background: red;
+}
+
+.contacts_icons p {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.contacts_icons>p:first-of-type {
+    background: url(img/skype_icon.png) no-repeat 0px 0px;
+}
+
+.contacts_icons>p:nth-of-type(2) {
+    background: url(img/icq_icon.png) no-repeat 0px 0px;
+}
+
+.contacts_icons>p:nth-of-type(3) {
+    background: url(img/email_icon.png) no-repeat 0px 0px;
+}
+
+.contacts_icons>p:last-of-type {
+    background: url(img/phone_icon.png) no-repeat 0px 0px;
+}
+
+.contacts_link a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contacts_link i:hover {
+    border-radius: 50%;
+    background: rgb(250, 118, 118);
+}
+
+.contacts_link i:active {
+    border-radius: 50%;
+    background: red;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial;
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    background: #f5f5f5;
+}
+
+.fab {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
