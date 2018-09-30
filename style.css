@@ -157,6 +157,7 @@ video {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin-left: 230px;
 }
 
 .reviews {
@@ -189,7 +190,7 @@ video {
     float: left;
     margin-right: 40px;
     margin-left: 20px;
-    padding-bottom: 20px;
+    border-radius: 50%;
 }
 
 .comment p:first-of-type {
@@ -200,6 +201,7 @@ video {
     line-height: 18px;
     padding-top: 15px;
     margin-bottom: 15px;
+    margin-left: 140px;
 }
 
 .comment p:last-of-type {
@@ -354,6 +356,14 @@ input[type="text"] {
     padding-left: 10px;
 }
 
+input[type="text"]:hover {
+    background: rgb(250, 118, 118);
+}
+
+input[type="text"]:first-of-type {
+    text-transform: capitalize;
+}
+
 textarea {
     padding-top: 5px;
     padding-left: 10px;
@@ -366,6 +376,10 @@ textarea {
     border: 1px solid #445162;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+textarea:hover {
+    background: rgb(250, 118, 118);
 }
 
 input[type="submit"] {
@@ -414,17 +428,17 @@ input[type="submit"]:active {
     background: url(img/phone_icon.png) no-repeat 0px 0px;
 }
 
-.contacts_link img {
+.contacts_link a {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
-.contacts_link img:hover {
+.contacts_link i:hover {
     border-radius: 50%;
     background: rgb(250, 118, 118);
 }
 
-.contacts_link img:active {
+.contacts_link i:active {
     border-radius: 50%;
     background: red;
 }
@@ -438,4 +452,12 @@ footer {
     letter-spacing: 0.3px;
     line-height: 30px;
     background: #f5f5f5;
+}
+
+.fab {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 30px;
+    height: 30px;
 }
